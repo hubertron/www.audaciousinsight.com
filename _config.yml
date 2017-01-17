@@ -1,7 +1,7 @@
-name: Herring Cove
-author: Herring Cove
-baseurl: /herring-cove
-description: theme for jekyll
+name: Audacious Insight
+author: Steven Hubert
+#baseurl: 
+description: Musing's from a progressive digital professional
 github: http://www.github.com/arnp
 twitter: http://www.twitter.com/
 facebook: http://www.facebook.com
@@ -13,10 +13,12 @@ disqus: diqus-username
 ##Make sure to edit the above fields, especially for disqus.
 
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
 
 defaults:
   - scope:
